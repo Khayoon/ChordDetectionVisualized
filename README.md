@@ -67,7 +67,6 @@ The advantage of using complex numbers, instead of simply stating "two coordinat
 A prime example is **Euler's formula**: $e^{i\theta} = \cos(\theta) + i\sin(\theta)$. This formula beautifully shows that multiplying $e$ by an imaginary number ($i$ times a real number) moves you along a circle of radius 1, counter-clockwise, starting from the positive real axis.![animation](https://github.com/user-attachments/assets/a8c0139c-b8d5-4191-be15-5a0aed034b6a)
 
 
-To illustrate, consider describing a rotation at a rate of one cycle per second. You could use the expression $e^{2\pi it}$, where '$t$' represents time. The reason for $2\pi$ is that it represents the full circumference of a unit circle.
+To illustrate, consider describing a rotation at a rate of one cycle per second. You could use the expression e^(2πit), where 't' represents time. The reason for 2π is that it represents the full circumference of a unit circle.
 
-If this feels a bit fast, you can adjust the frequency. To describe a different, perhaps slower, frequency '$f$', you simply multiply '$t$' in the exponent by '$f$'. For instance, if '$f$' is $0.1$ (one-tenth), the vector completes one full turn every 10 seconds. This is because '$t$' must increase to 10 for the entire exponent to become $2\pi i$. (For a deeper understanding of why $e^x$ behaves this way with imaginary inputs, there are other resources available.)
-
+If this feels a bit fast, you can adjust the frequency. To describe a different, perhaps slower, frequency 'f', you simply multiply 't' in the exponent by 'f'. For instance, if 'f' is 0.1 (one-tenth), the vector completes one full turn every 10 seconds. This is because 't' must increase to 10 before the entire exponent becomes 2πi.
