@@ -62,7 +62,7 @@ But first. In mathematics, especially when dealing with two-dimensional concepts
 ![image](https://github.com/user-attachments/assets/b6c8ed02-5059-4f8b-9c70-211ea80a0c07)
 
 
-The advantage of using complex numbers, instead of simply stating "two coordinates," is because they are a better way to describe **winding and rotation** than real numbers. Complex numbers compactly combine magnitude and angle, allowing direct rotation and scaling through simple multiplication, which vectors lack natively. And if you think why not use a vector, complex numbers compactly combine magnitude and angle into a single entity, allowing rotation and scaling to be performed with simple multiplication, unlike vectors which require matrix operations.
+The advantage of using complex numbers, instead of two coordinates, is because they are a better way to describe **winding and rotation** than real numbers. Complex numbers compactly combine magnitude and angle, allowing direct rotation and scaling through simple multiplication, which vectors lack natively. And if you think why not use a vector, complex numbers compactly combine magnitude and angle into a single entity, allowing rotation and scaling to be performed with simple multiplication, unlike vectors which require matrix operations.
 
 A prime example is **Euler's formula**: $e^{i\theta} = \cos(\theta) + i\sin(\theta)$. This formula beautifully shows that multiplying $e$ by an imaginary number ($i$ times a real number) moves you along a circle of radius 1, counter-clockwise, starting from the positive real axis.![animation](https://github.com/user-attachments/assets/a8c0139c-b8d5-4191-be15-5a0aed034b6a)
 
